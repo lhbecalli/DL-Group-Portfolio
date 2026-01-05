@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-glow {
+    text-shadow: 0 0 20px rgba(59, 130, 246, 0.5);
+  }
+}
+
+@theme {
+  /* Cores extraídas da sua identidade visual */
+  --color-dl-carbon: #0A0A0A;
+  --color-dl-platinum: #E6E6E6;
+  --color-dl-indigo: #1C1C5E;
+  --color-dl-sapphire: #0033A0;
+
+  /* Fontes e animações personalizadas podem vir aqui */
+  --font-sans: "Inter", ui-sans-serif, system-ui;
+}
+
+/* Efeito de grão (opcional para aspecto sênior/texturizado) */
+.bg-noise {
+  background-image: url("https://grainy-gradients.vercel.app/noise.svg");
+  filter: contrast(150%) brightness(100%);
+}

@@ -10,7 +10,7 @@ export default function Footer() {
           
           <div>
             <h2 className="text-4xl md:text-6xl font-bold text-white mb-8 leading-tight">
-              Bora criar algo <br /> <span className="text-blue-500">lendário?</span>
+              Bora escalar <br /> <span className="text-blue-500">seu negócio?</span>
             </h2>
             <button className="group flex items-center gap-2 bg-blue-600 hover:bg-blue-500 text-white px-8 py-4 rounded-full font-bold transition-all mx-auto">
               Iniciar Projeto <ArrowUpRight className="group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />

@@ -10,7 +10,7 @@ export default function Navbar() {
   const navLinks = [
     { name: "Início", id: "home" },
     { name: "Serviços", id: "servicos" },
-    { name: "Produtos", id: "produtos" },
+    { name: "Eficiência", id: "produtos" },
     // NOVO LINK ADICIONADO:
     { name: "Clientes", id: "depoimentos" },
   ];

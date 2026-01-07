@@ -99,6 +99,7 @@ const MetricCard = ({ type }) => {
         </div>
 
         <footer className="mt-8 pt-8 border-t border-white/5 flex justify-between items-center text-sm">
+
         </footer>
       </div>
     </motion.article>
@@ -121,7 +122,7 @@ export default function Results() {
             viewport={{ once: true }}
             className="flex items-center gap-3 justify-center md:justify-start mb-6"
           >
-            <div className="w-12 h-[1px] bg-blue-500/50" />
+            <div className="w-5 h-[1px] bg-blue-500/50" />
             <span className="text-blue-500 font-bold tracking-[0.4em] uppercase text-[10px]">ROI & Automação</span>
           </motion.div>
           <h2 className="text-white text-4xl md:text-7xl font-bold tracking-tighter leading-[0.9] mb-8">
